@@ -1,0 +1,15 @@
+<svg width="589" height="371" viewBox="0 0 589 371">
+  <g id="json" transform="translate(-1107.482 -529)">
+    <g id="Rectángulo_1" data-name="Rectángulo 1" transform="translate(1107.482 529)" fill="#fff" stroke="#707070" stroke-width="2">
+      <rect width="589" height="371" rx="107" stroke="none"/>
+      <rect x="1" y="1" width="587" height="369" rx="106" fill="none"/>
+    </g>
+    <text id="_Name:_David_LastName:_Acosta_Contry:_Colombia_Age:_21_" data-name="{ 
+     Name: “David”,
+     LastName: “Acosta”,
+     Contry: “Colombia”,
+     Age: 21
+}
+ 	   " transform="translate(1207.482 565)" font-size="25" font-family="Poppins-SemiBold, Poppins" font-weight="600" letter-spacing="0.067em"><tspan x="0" y="26">{ </tspan><tspan x="0" y="79" xml:space="preserve">     </tspan><tspan y="79" fill="#6afc6c">Name</tspan><tspan y="79">: “David”,</tspan><tspan x="0" y="132" xml:space="preserve">     </tspan><tspan y="132" fill="#6afc6c">LastName</tspan><tspan y="132">: “Acosta”,</tspan><tspan x="0" y="185" xml:space="preserve">     </tspan><tspan y="185" fill="#6afc6c">Contry</tspan><tspan y="185">: “Colombia”,</tspan><tspan x="0" y="238" xml:space="preserve">     </tspan><tspan y="238" fill="#6afc6c">Age</tspan><tspan y="238">: 21</tspan><tspan x="0" y="291">}</tspan></text>
+  </g>
+</svg>
