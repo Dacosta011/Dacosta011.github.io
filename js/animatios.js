@@ -28,7 +28,7 @@ tl.from('.hero-json', {
 gsap.from(".transition2", {
     scrollTrigger: {
         trigger: '.transition2',
-        start: "top bottom"
+        start: "top center"
     },
     x: 100,
     opacity: 0,
@@ -56,4 +56,35 @@ gsap.from(".transition4", {
     opacity: 0,
     duration: 1.2,
     stagger: 0.6
+})
+
+gsap.from(".io",{
+    scrollTrigger:{
+        trigger:".io",
+        start:"top center"
+    },
+    y: 100,
+    opacity: 0,
+    duration: 1.2
+})
+
+gsap.from(".about-info",{
+    scrollTrigger:{
+        trigger:".io",
+        start:"top center"
+    },
+    x: 100,
+    opacity: 0,
+    duration: 1.5,
+})
+
+gsap.from(".sml",{
+    scrollTrigger:{
+        trigger:".io",
+        start:"top center"
+    },
+    y: -20,
+    opacity: 0,
+    duration: 1.5,
+    stagger:0.5
 })
