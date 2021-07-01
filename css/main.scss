@@ -37,6 +37,36 @@ header {
   }
 }
 
+nav.menu-btn{
+  display: block;
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top:0;
+  background: white;
+  height: 100vh;
+  padding: 1em;
+  ul{
+    margin-top: 5em;
+  }
+  li{
+    a{
+      color: #202731;
+      display: block;
+      padding: 0.5em;
+      font-size: 1.3em;
+      text-align: right;
+    }
+  }
+  .close{
+    width: 10%;
+    float: right;
+    margin: 0.5em;
+    cursor: pointer;
+  }
+}
+
 .heroo {
   background: #d90b1c;
   color: white;
@@ -448,6 +478,9 @@ section {
   .nav-container {
     justify-content: space-between;
     background: none;
+    .close{
+      display: none;
+    }
     #logo {
       width: 60%;
     }
@@ -570,3 +603,4 @@ section {
     z-index: -1;
   }
 }
+
