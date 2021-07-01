@@ -4,6 +4,7 @@ var ski = document.getElementById("btn-skills");
 var wo = document.getElementById("btn-work");
 var ab = document.getElementById("btn-about")
 var hir = document.getElementById("btn-hire")
+var arr = document.getElementById("arr")
 
 ski.addEventListener("click", () => {
     nav.classList.remove("menu-btn");
@@ -29,5 +30,11 @@ hir.addEventListener("click", () => {
     nav.classList.remove("menu-btn");
     jump(".hire-me",{
         duration: 5000
+    })
+})
+
+arr.addEventListener("click", () => {
+    jump(".featured",{
+        duration: 1000
     })
 })
