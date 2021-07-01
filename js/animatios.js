@@ -1,29 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 var tl = gsap.timeline();
 
-tl.from('.fist', {
-    y: '-30%',
-    opacity: 0,
-    duration: 2,
-    ease: Power4.easeOut
-})
-tl.from('.content', {
-    y: '-30%',
-    opacity: 0,
-    duration: 2,
-    ease: Power4.easeOut
-},"-=1.5")
-tl.from('.stagger1', {
-    opacity: 0,
-    y: -50,
-    stagger: .3,
-    ease: Power4.easeOut,
-    duration: 2
-}, "-=2.0")
-tl.from('.hero-json', {
-    opacity: 0, y: 150, ease: Power4.easeOut, duration: 2
-}, "-=2.0")
-
 
 gsap.from(".transition2", {
     scrollTrigger: {
