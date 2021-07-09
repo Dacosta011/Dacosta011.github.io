@@ -563,8 +563,8 @@ section {
     background: none;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 66% auto;
-        grid-template-columns: 66% auto;
+    -ms-grid-columns: 60% auto;
+        grid-template-columns: 60% auto;
     background: unset;
     padding: 0;
   }
@@ -579,9 +579,29 @@ section {
   }
   .heroo .hero-json {
     display: unset;
-    padding-top: 10em;
-    margin-left: -20%;
-    width: 100%;
+    margin: auto;
+    background-color: white;
+    color: #202731;
+    border-radius: 2em;
+    text-align: left;
+    margin-left: 0em;
+    font-size: 1.8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    font-weight: bold;
+  }
+  .heroo .hero-json p {
+    margin: 0;
+  }
+  .heroo .hero-json .brackets {
+    padding-left: 2em;
+  }
+  .heroo .hero-json .atributes {
+    padding-left: 3em;
+  }
+  .heroo .hero-json .atributes span {
+    color: #6afc6c;
   }
   header {
     padding: 2em 2em 2em 4em;
